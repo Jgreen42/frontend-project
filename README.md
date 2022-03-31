@@ -1,8 +1,7 @@
 # Jgreen42
 ## MVP-App v1- ASCII Art Converter
 
-![https://giphy.com/gifs/ascii-WwRBxOKt9lCho7s5rB](https://media.giphy.com/media/WwRBxOKt9lCho7s5rB/giphy.gif)
-
+![https://media.giphy.com/media/WwRBxOKt9lCho7s5rB/giphy.gif](https://media.giphy.com/media/WwRBxOKt9lCho7s5rB/giphy.gif)
 
 
 This is the begining of an ASCII Art Converter
