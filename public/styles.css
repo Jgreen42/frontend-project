@@ -4,6 +4,12 @@
     padding: 0;
     box-sizing: border-box;
   }
+  .content {
+    float: left;                  /* Add this */
+    width: 650px;
+    height: 500px;
+    background-color: #F5CF8E;
+  }
   
   .menu {
     height: 100px;
@@ -24,3 +30,4 @@
     height: 200px;
     background-color: #D6E9FE;    /* Light blue */
   }
+  
