@@ -1,7 +1,6 @@
 # Jgreen42
 ## MVP-App v1- ASCII Art Converter
 
-![https://media.giphy.com/media/WwRBxOKt9lCho7s5rB/giphy.gif](https://media.giphy.com/media/WwRBxOKt9lCho7s5rB/giphy.gif)
 
 
 This is the begining of an ASCII Art Converter
@@ -12,6 +11,7 @@ This is the begining of an ASCII Art Converter
 - ASCII stands for (American Standard Code for Information Interchange)
 
 ## Features
+![https://media.giphy.com/media/WwRBxOKt9lCho7s5rB/giphy.gif](https://media.giphy.com/media/WwRBxOKt9lCho7s5rB/giphy.gif)
 
 - Image Conversion 
 - Download Image for personal use.
