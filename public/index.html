@@ -15,10 +15,18 @@
     <link rel='stylesheet' href='styles.css'/>
   </head>
   <body>          
-     
+    <script>
+      document.getElementById("submit").onclick = displayDate;
+      </script>
 
   
         <div class='sidebar'></div>
+        
+        <p>Click on the "Choose File" button to upload a file:</p>
+        <form action="/action_page.php">
+        <input type="file" id="myFile" name="filename">
+        <input type="submit">
+        </form>
         <div class='content'>
           <section>
             <p>
