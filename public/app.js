@@ -8,7 +8,7 @@ form.addEventListener("submit", (e) => {
         photoid: data.get("photoid"),
     };
     $.post({
-        url: "/users"
+        url: "/users" 
 
 
         
