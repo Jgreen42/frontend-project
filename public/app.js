@@ -43,8 +43,6 @@ else {
  alert("local storage is full un able to convert!")
   console.log("local storage is full!")
 };
-
-
-    
+download();//call for test
   
 
