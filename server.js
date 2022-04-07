@@ -1,27 +1,14 @@
 require("dotenv").config();
 const express = require("express");
-const { Pool } = require("pg");
-
-
-const pool = new Pool({
-  connectionString: process.env.DATABASE_URL,
-  ssl:
-    process.env.NODE_ENV === "production"
-      ? {
-          rejectUnauthorized: false,
-        }
-      : false,
-})
-
+const db = require("./db/conn");
 const app = express();
-
 
 app.use(express.static("public"));
 console.log(process.env);
 
-app.get("/users", (req, res) => {
-  pool.query("SELECT * FROM users").then((result) => {
-    res.send(result.rows);
+app.get("/api/users", (_, res) => {
+  DB.query("SELECT * FROM users").then((data) => {
+    res.json(data.rows);
   });
 });
 
