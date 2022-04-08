@@ -59,7 +59,7 @@ background-attachment: local;
   display:flex;
   flex-wrap: stretch;
   -ms-flex-align: center;
-};
+}
 .footer {
 
   height: 1200px;
