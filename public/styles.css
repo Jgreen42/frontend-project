@@ -56,19 +56,13 @@ background-attachment: local;
   
   
 .flex-container {
-  display:flex
+  display:flex;
   flex-wrap: stretch;
   -ms-flex-align: center;
-
-
-
-
-
-  
-
-}
+};
 .footer {
 
   height: 1200px;
   image-rendering: optimizeQuality;
-  background-image: url('https://opengameart.org/sites/default/files/tile-12-02-2021-00-04-03_0.png');
+  background-image: url('https://opengameart.org/sites/default/files/tile-12-02-2021-00-04-03_0.png')
+};
