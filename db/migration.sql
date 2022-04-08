@@ -1,8 +1,9 @@
+DROP TABLE if exists users;
 
 CREATE TABLE users (
 id SERIAL PRIMARY KEY,
 name TEXT NOT NULL,
-photoid INTEGER NOT NULL,
+photoid INTEGER NOT NULL
 );
 
 INSERT INTO users(name, photoid) VALUES ('', 1);

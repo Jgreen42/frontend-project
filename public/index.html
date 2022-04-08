@@ -11,7 +11,7 @@
       <!-- dont forget to link your styles.css folder to manipulate the webpage -->
       <!-- Latest compiled and minified CSS -->
       
-      <link rel="public/app.js"></link>
+      <script defer src="app.js"></script>
       <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
       <!-- jQuery library -->
       
@@ -45,38 +45,7 @@
     </div>
     
     <script>
-      document.querySelector("#alpha_myFile").addEventListener("change", function() {
-        
-        const reader = new FileReader();
-        
-        reader.addEventListener("load", () => {
-          
-          localStorage.setItem("recent-image", reader.result);
-          
-        });
-        
-        reader.readAsDataURL(this.files[0])
-      });
-      
-      document.addEventListener("DOMContentLoaded", () => {
-        const recentImagDataUrl = localStorage.getItem("recent-image");
-        
-        if(recentImagDataUrl) {
-          document.querySelector("#content").setAttribute("src", recentImagDataUrl) && document.querySelector("#loadImage").setAttribute("src", recentImagDataUrl);
-        };
-        document.addEventListener("SubmitEvent", (event) => {
-          if(event) {
-            const reader2 = new FileReader();
-            
-            reader2.addEventListener("load", () => {
-              
-              localStorage.setItem("recent-image", reader.result);
-            }
-             
-            
-        });
-   
-
+    </script>
 
 
       
