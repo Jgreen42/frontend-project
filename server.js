@@ -1,3 +1,7 @@
+
+
+//requires dotenv enviroment variables such as port and database URL if you shall have a port already
+//existing go ahead and change it to a open local port.
 require("dotenv").config();
 const express = require("express");
 const db = require("./conn");

@@ -1,12 +1,12 @@
 DROP TABLE if exists users;
+DROP TABLE if exists img;
 
 CREATE TABLE users (
 id SERIAL PRIMARY KEY,
-name TEXT NOT NULL,
-photoid INTEGER NOT NULL
+email TEXT NOT NULL
 );
-
-INSERT INTO users(name, photoid) VALUES ('', 1);
-INSERT INTO users(name, photoid) VALUES ('', 2);
-INSERT INTO users(name, photoid) VALUES ('', 3);
-INSERT INTO users(name, photoid) VALUES ('', 4);
+CREATE TABLE img (
+    imgID PRIMARY KEY,
+    locURL VARCHAR(255),
+    userID FOREIGN KEY,
+);
