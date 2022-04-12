@@ -1,4 +1,3 @@
-@@ -1,12 +1,12 @@
 DROP TABLE if exists users;
 
 CREATE TABLE users (
